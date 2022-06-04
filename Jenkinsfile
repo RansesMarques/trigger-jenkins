@@ -12,7 +12,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-				echo $hostname
+		echo $hostname
             }
         }
         stage('Deploy') {
