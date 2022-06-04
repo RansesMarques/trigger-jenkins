@@ -13,9 +13,9 @@ pipeline {
             steps {
                 echo 'Testing..'
             }
-		stage('teste Linux') {
+        stage('teste Linux') {
             steps {
-                echo 'teste do linux'
+                echo 'Hello World'
             }
         }
         stage('Deploy') {
@@ -24,4 +24,5 @@ pipeline {
             }
         }
     }
+}
 }
