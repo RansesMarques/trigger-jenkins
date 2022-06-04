@@ -13,6 +13,10 @@ pipeline {
             steps {
                 echo 'Testing..'
             }
+        stage('teste Linux') {
+            steps {
+                echo 'Hello World'
+            }
         }
         stage('Deploy') {
             steps {
